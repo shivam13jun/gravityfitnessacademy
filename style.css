@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('http://fonts.cdnfonts.com/css/norwester');
+
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: "Josefin Sans"; */
+    font-family: 'Norwester', sans-serif;;
+    line-height: 20px;
+    font-weight: 400;
+    font-style: normal;
+     color: #000000; 
+    font-size: 14px;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+    background-color:#fff;
+   
+   
+}
+
+.navbar-toggler-icon{
+    background-image:url('hamburger-menu-icon-png-5.jpg');
+}
+.bg-image{
+    opacity: 0.9;
+}
+.cpt-carousel{
+    margin-top:100px;
+}
+.home-slider{
+        margin-top: 140px;
+}
+p{
+    color: black;
+}
+
+.blink {
+    animation: blink 0.75s steps(1, end) infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      
+      color:white;
+      
+    }
+    50% {
+    
+      color: blue;
+    }
+    100% {
+      color: yellow;
+    }
+  }
+
+.header-carousel{
+    width: 68%;
+    margin: auto;
+}
+@media screen and (max-width:600px) {
+    .header-carousel{
+        width: 100%;
+    }
+    .nav-item{
+        z-index: 10000;
+}
+
+    #popup {
+    position: absolute;
+    top: 73px;
+    width: 100%;
+    }
+}
+.top-header{
+    height: 100px;
+    margin-bottom: 75px;
+}
+.header-link{
+     font-size: 26px;
+      margin-right: 13px;
+  }
+  
+  
+
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+        padding-top: 17px;
+    
+}
+
+.nav-ul{
+    padding: 19px 0;
+   
+    margin: 0 auto;
+}
+.blog-section{
+    padding-top: 117px;
+    padding-bottom: 20px;
+}
+
+.blog-content{
+    padding-top: 10px;
+}
+.blog-container{
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.slider-carousel {
+    width: 75%;
+}
+.blog-a{
+    background: linear-gradient(to bottom,#96d29f,#96d29f);
+    background-position: 0 98%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s ease-out;
+    color: black;
+}
+.item-content h3{
+    font-family: auto;
+    color: black;
+}
+.item-content p{
+    font-family: auto;
+    color: black;
+
+}
+.heading{
+    padding-bottom: 20px;
+    padding-right: -75px;
+    margin-left: -80px;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: black;
+}
+.heading h2{
+ text-align: center;
+}
+.heading-content{
+    text-align: center;
+    color: black;
+}
+.heading-content p{
+    padding-left: 89px;
+    color: black;
+}
+.blog-heading{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 38px;
+    padding: 18px 0;
+    color: black;
+    text-align: center;
+}
+.logo{
+    width: 100%;
+    height: 153px;
+    margin: auto;
+}
+.f-link{
+    color:: #000000b3;
+}
+
+footer a{
+    text-transform: capitalize;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+ #popup{
+    position: absolute;
+    top: 73px;
+    left: 42%;
+    /* right: 50%; */
+    width: 21%;
+    display: none;
+}   
+footer{
+    background-color: #80808042;
+        padding-bottom: 1px;
+}
+footer .row p,h6,a{
+    color: #000000b3;
+}
+footer .row{
+    margin:auto;
+}
+.carousel-banner{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.upper-title{
+    font-style: italic;
+    font-size: 20px;
+    line-height: 36px;
+    color: black;
+    margin-top: 10px;
+    font-family: 'Norwester', sans-serif;
+}
+.blog-heading{
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000;
+}
+.article-content{
+    font-size: 20px;
+    line-height: 36px;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    margin-top: 50px;
+}
+.article-content p{
+    font-size: 17px;
+    line-height: 28px;
+    font-family: inherit;
+    word-break: break-word;
+    font-style: normal;
+    font-weight: 400;
+}
+.article-content ul{
+   padding-left: 17px !important;
+}
+
+.article-content h2{
+        font-family: 'Norwester';
+        text-transform: uppercase;
+}
+.article-content ul li{
+    font-size: 17px !important;
+    line-height: 25px !important;
+    margin-bottom: 7px !important;
+}
+.contact-heading{
+    color: black;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.blog-image img{
+    width:100%;
+}
+
+.enable{
+    text-transform: capitalize;
+    color: green;
+}
+i{
+color: black;
+}
+.social-footer-icon{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 30px;
+}
+.footer-icon{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+   
+}
+.list-top{
+    line-height: 3;
+}
+.list-top i{
+    color: black;
+}
+
+.owl-carousel .owl-item img  {
+   
+    
+    margin: auto;
+}
+
+.fitnes{
+    padding-left:60px;
+}
+.academy{
+    padding-left:147px;
+        
+}
+
+.background-image {
+    background-image: url("cpt-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height:400px;
+}
+
+/* media screen */ 
+@media only screen and (max-width: 600px) {
+  .background-image {
+  height:100px;
+  }
+  .logo{
+       width: 70px;
+    height: 53px;
+    margin: auto;
+}
+.slider-carousel{
+    width:100%;
+}
+
+.blog-heading {
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000;
+    font-size: 20px;
+}
+.top-header {
+    height: 0px;
+    margin-bottom: 75px;
+}
+.enable {
+    padding-top: 23px;
+}
+}
+/* media screen end */ 
+
+
+
+.breadcrumb {
+    border-radius: 0;
+    background-color: transparent;
+    padding: 15px 0 10% 0;
+
+}
+.breadcrumb li a {
+    font-size: 15px;
+    color: white;
+}
+
+
+
+
+
